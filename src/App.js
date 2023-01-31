@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Router>
-        <Helmet>
+        {/* <Helmet>
           <title>Learning React Helmet!</title>
           <meta name='description' content='Beginner friendly page for learning React Helmet.' />
-        </Helmet>
+        </Helmet> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
