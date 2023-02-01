@@ -12,8 +12,8 @@ const Home=()=>{
   <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
-                <meta data-rh="true" property="og:url" content="https://testing-app-git-master-alirazasdk.vercel.app/"></meta>
-                <meta property="og:description" content="A dummies guide to getting up and running with selenium-webdriver" data-rh="true"></meta>
+                <meta property="og:url" content="https://testing-app-git-master-alirazasdk.vercel.app/"></meta>
+                <meta property="og:description" content="A dummies guide to getting up and running with selenium-webdriver"></meta>
   </Helmet>
   <h1>This is Home</h1></>
   );
