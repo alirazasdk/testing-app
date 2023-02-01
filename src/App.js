@@ -7,14 +7,11 @@ import { HelmetProvider } from 'react-helmet-async';
 
 
 function App() {
+  const helmetContext = {};
   return (
     <>
       <Router>
-        {/* <Helmet>
-          <title>Learning React Helmet!</title>
-          <meta name='description' content='Beginner friendly page for learning React Helmet.' />
-        </Helmet> */}
-        <HelmetProvider>
+        <HelmetProvider context={helmetContext}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
