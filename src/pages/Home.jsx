@@ -8,11 +8,12 @@ const Home=()=>{
       console.log('res',res.data)
     }))
   },[])
-  return( <><Helmet>
+  return( <>
+  <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
                 <meta name="description" content="I am a description, and I can create multiple tags" />
-            </Helmet>
+  </Helmet>
   <h1>This is Home</h1></>
   );
 }
