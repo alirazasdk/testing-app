@@ -9,12 +9,12 @@ const Home=()=>{
     }))
   },[])
   return(<>
-  <HelmetProvider>
+  {/* <HelmetProvider> */}
     <Helmet>
       <title>Learning React Helmet!</title>
       <meta name='description' content='Beginner friendly page for learning React Helmet.' />
     </Helmet>
-  </HelmetProvider>
+  {/* </HelmetProvider> */}
   <h1>This is Home</h1>
   </>);
 }
