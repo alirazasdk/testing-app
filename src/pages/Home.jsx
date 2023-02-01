@@ -12,6 +12,7 @@ const Home=()=>{
   <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
+                <meta data-rh="true" property="og:url" content="https://testing-app-git-master-alirazasdk.vercel.app/"></meta>
                 <meta name="description" content="I am a description, and I can create multiple tags" />
   </Helmet>
   <h1>This is Home</h1></>
